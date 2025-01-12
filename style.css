@@ -1,0 +1,365 @@
+  
+  @font-face {
+    font-family:TT Lakes ;
+    src: url(fonts/TTLakes-Bold.woff);
+    
+  }
+
+  @font-face {
+    font-family:TT mediun ;
+    src: url(fonts/TTLakesCompressed-Regular.woff);
+    
+  }
+   
+  
+
+  body {
+    display: flex;
+    justify-content: center;
+    background-color: #ececf5;
+  }
+
+  .perents {
+    width: 320px;
+    height: 520px;
+    background-color: #F8F8F8;
+  }
+
+  .container {
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 88px;
+   
+}
+
+.container__png{}
+
+.container__icons {
+    display: none;
+}
+
+.container__aconsraght {
+    display: flex;
+    gap: 13px;
+}
+
+.title {
+    width: 304px;
+    height: 40px;
+}
+
+.title__h1 {
+    display: inline;
+    font-family:TT Lakes;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight:700;
+    position: relative;
+    top: -10px;
+    left: 6px;
+    
+     
+}
+
+.menu__list {
+    display: flex; 
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+   
+ }
+
+ .menu__list::-webkit-scrollbar {
+    display: none;
+ }
+    
+.menu__link {
+    color: #7E7E82;
+    text-decoration: none;
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 30px;
+    
+   
+    border-radius: 5px;
+    
+}
+
+.menu__item:hover {
+    border:3px, solid #B8FFEC;
+    background-color: white;
+}
+
+.card {
+    width: 320px;
+    height: 322px;
+}
+
+
+.card__text {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+    flex-direction: column;
+   
+   
+    
+}
+
+img {
+    
+}
+
+.card__grov {
+margin-left: 23px;
+
+}
+
+.carg__h4 {
+
+    display: inline;
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.card__icon {
+   margin-top: 13px;
+   margin-left: 14px;
+   
+} 
+
+.container__divider1 {
+    display: none;
+}
+
+.imgus{
+    width: 100%;
+    
+}
+
+.card__pr {
+    display: block;
+   text-align: left;
+    margin-left: 5px;
+   margin-right: 10px;
+    width: 288px;
+    height: 90px;
+    font-family: TT mediun;
+    font-weight: 400;
+    font-size: 17px;
+    
+    
+    
+    
+}
+
+.card__pr-2 {
+    display: none;
+}
+
+.card__img {
+    margin-top: 15px;
+  
+  
+}
+
+
+
+.menu__pr,
+.card__text2 {
+    display: none;
+}
+
+.container__icopr {
+    display: none;
+    margin-top: 10px;
+   
+
+}
+
+.wiff {
+    display: none;
+}
+
+
+
+  
+   
+
+@media (min-width:769px) {
+   
+    .perents {
+        width: 768px;
+        height: 504px;
+        background-color: #F8F8F8;
+      }
+   
+      .card__text {
+        display:flex;
+       flex-direction: row;
+        
+       margin-top: 35px;
+        margin-left: 20px;
+        
+    }
+
+    .imgus{
+        width: 360px;
+        height: 208;
+    }
+
+    .card__pr-2 {
+        display: block;
+        margin-left: 5px;
+        width:312px ;
+        font-family: TT mediun;
+        font-weight: 400;
+        
+    }
+
+.container__icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: 200px;
+}
+
+.container__divider{
+   display: none;
+}
+
+.container__svg {
+    margin-right: 55px;
+}
+
+.container__aconsraght {
+    margin-right: 5px;
+}
+
+.container__divider1 {
+    display: block;
+}
+ 
+.container__icopr {
+    display: none;
+
+}
+    
+   
+}
+
+@media (min-width:1120px){
+          
+    .perents {
+       
+        width: 1120px;
+        height: 535px;
+        background-color: #F8F8F8;
+        
+      }
+
+    .container {
+        background-color: #F8F8F8;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 14px;
+        align-items: center;
+        width: auto;
+        height: 88px;
+       
+    }
+
+    .container__icons {
+        display: none;
+       
+    }
+
+    .container__burger,
+   .container__divider1 ,
+   .container__svg,
+   .container__divider {
+    display: none;
+   }
+
+   .container__icopr {
+    display: inline;
+
+}
+.menu__pr {
+    display: inline;
+    margin-left: 30px;
+    opacity: 0.7;
+}
+
+.menu {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+    
+}
+
+.card__text {
+    margin-top: 0px;
+}
+
+.card__text2 {
+    display: block;
+    width: 490px;
+    margin-right: 5px;
+    font-family: TT mediun;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.card__pr-2 {
+    display: none;
+}  
+
+.card__pr {
+    display: block;
+   text-align: left;
+    margin-right: 5px;
+   margin-right: 10px;
+    width: 490px;
+   
+}
+
+.imgus {
+width: 100%;
+    
+}
+
+.card__img {
+    width: 531px;
+    height: 507px;
+    margin-bottom: 50px;
+}
+
+.container__aconsraght {
+    margin-top: 125px;
+}
+
+.title__img {
+   margin-right: 20px;
+}
+
+
+
+
+    
+
+}
