@@ -370,14 +370,15 @@ html {
   body {
     margin-right: 0;
     background-color:white;
-    width: 320px;
-    height: 597px;
+    width: 100vw;
+    height: 100vw;
   }
 
   .perents {
     width: 320px;
     height: 597px;
     background-color: #F8F8F8;
+    margin: 0;
   }
 
   .container {
