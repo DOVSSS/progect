@@ -368,8 +368,7 @@ html {
   
 
   body {
-    display: flex;
-    justify-content: center;
+    margin-right: 0;
     background-color:white;
   }
 
