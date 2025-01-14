@@ -377,7 +377,7 @@ html {
 
   .perents {
     min-width: 320px;
-    min-height: 597px;
+    min-height: 597vh;
     background-color: #F8F8F8;
     margin: 0;
   }
